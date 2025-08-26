@@ -1,0 +1,13 @@
+translate_task:
+  description: >
+    Translate {sentence} from English to Korean without making mistakes.
+  expected_output: >
+    A well-formatted translation from English to Korean that preserves tone and nuance, uses correct spacing, and handles names and places appropriately.
+  agent: translator_agent
+
+retranslate_task:
+  description: >
+    Translate {sentence} from Korean to Japanese without making mistakes.
+  expected_output: >
+    A well-formatted translation from Korean to Japanese with appropriate kana/kanji usage and proper transcription of names and places.
+  agent: translator_agent
